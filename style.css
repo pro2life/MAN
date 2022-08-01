@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#header{
+    background: red;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.iron{
+    width: 100px;
+    border-radius: 50px;
+    position: relative;
+    animation: ironkey 1s linear 1s;
+}
+@keyframes ironkey {
+from{
+    left: -200px;
+}
+    to{
+        left: 0;
+    }
+}
+.iron1{
+    width: 100px;
+    border-radius: 50px;
+    position: relative;
+    animation: iron1key 1s linear 1s;
+}
+@keyframes iron1key {
+    from {
+left: 200px;
+}
+to {
+    left: 0;
+}
+
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu1{
+    position: relative;
+    animation: menu1key 1s linear 1s;
+
+}
+
+@keyframes menu1key {
+    from {
+        top: -200px;
+    }
+    to {
+        top: 0;
+    }
+}
+.stark{
+    margin: 30px;
+    text-decoration: none;
+    font-size: 30px;
+}
+#section{
+
+    background: radial-gradient(99.27% 99.27% at 50.84% 100%, #3D3D3D 0%, #303030 0%, #1F1F1F 70.26%, #181818 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+}
+.menu2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.Man{
+    color: red;
+    margin-top: 40px;
+}
+.text{
+    width: 400px;
+    color: white;
+}
+.He{
+    margin: 20px 0 0 20px;
+}
+.foto1{
+    width: 550px;
+    margin: 40px 0 0 250px;
+    border-radius: 30px;
+}
+.iron2{
+    width: 20px;
+}
+.btn{
+    width: 200px;
+    height: 40px;
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 200px 0 200px 50px;
+    border-radius: 30px;
+}
+.MARVEL{
+    font-size: 15px;
+    margin: 10px;
+
+}
+.Avan{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img{
+    width: 200px;
+   border-radius: 180px;
+    height: 180px;
+}
+#footer{
+    background: radial-gradient(99.27% 99.27% at 50.84% 100%, #3D3D3D 0%, #303030 0%, #1F1F1F 70.26%, #181818 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */; ;
+  font-size: 50px;
+    color: red;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+}
